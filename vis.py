@@ -11,7 +11,7 @@ import torch
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 
 # Initialize Google Generative AI with API Key
-GEMINI_API_KEY = "AIzaSyA5Upb6djtVUb_gRP5vC12jDkPLidQ6JcA"  # Replace with your valid API key
+GEMINI_API_KEY = "Your_API_KEY"  # Replace with your valid API key
 os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
 
 llm = GoogleGenerativeAI(model="gemini-1.5-pro", api_key=GEMINI_API_KEY)
